@@ -13,7 +13,7 @@ Repository for sharing of files developed in language C during graduate course i
 1. [[0501](https://github.com/marcos-bah/language-c/blob/master/05exer/01-media.c)] Calcula vários tipos de média.
 2. [[0502](https://github.com/marcos-bah/language-c/blob/master/05exer/02-antSuc.c)] Calcula o antecessor e o sucessor de um número.
 3. [[0503](https://github.com/marcos-bah/language-c/blob/master/05exer/03-volCilindro.c)] Calcula o volume de um cilindro dado o seu raio.
-4. [[0504](https://github.com/marcos-bah/language-c/blob/master/05exer/04-calEsfera.c)] Calcula área, volume e comprimento da esfera.
+4. [[0504](https://github.com/marcos-bah/language-c/blob/master/05exer/04-calcEsfera.c)] Calcula área, volume e comprimento da esfera.
 5. [[0505](https://github.com/marcos-bah/language-c/blob/master/05exer/05-operacoes.c)] Calcula o quadrado, cubo, raiz quadrada e raiz cúbica de um dado número.
 
 Baixar arquivos compactados em zip: [05exer](https://github.com/marcos-bah/language-c/blob/master/05exer/005exer.zip)
