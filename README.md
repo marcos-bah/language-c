@@ -1,6 +1,6 @@
 # language-c
 
-**Português do Brail**   
+**Português do Brasil**   
 Repositório para compartilhamento de arquivos desenvolvidos na linguagem C durante o curso de graduação em Engenharia da Computação no Brasil  
 **Espanhol**  
 Repositorio para compartir archivos desarrollados en lenguaje C durante el curso de posgrado en Ingeniería Informática en Brasil  
