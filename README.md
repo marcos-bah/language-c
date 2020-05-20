@@ -18,6 +18,15 @@ Repository for sharing of files developed in language C during graduate course i
 
 Baixar arquivos compactados em zip: [05exer](https://github.com/marcos-bah/language-c/blob/master/05exer/005exer.zip)
 
+### 2ª Semana Programação em C / Programación en C / 2nd Week Programming in C  
+
+1. [[0601](https://github.com/marcos-bah/language-c/blob/master/06exer/01-carga.c)] Carga de um caminhão.
+2. [[0602](https://github.com/marcos-bah/language-c/blob/master/06exer/02-operacoes.c)] Operações com números.
+3. [[0603](https://github.com/marcos-bah/language-c/blob/master/06exer/03-media-notas.c)] Média de alunos.
+4. [[0604](https://github.com/marcos-bah/language-c/blob/master/06exer/04-funcionario.c)] Rendimento entre dois funcionários.  
+
+Baixar arquivos compactados em zip: [06exer](https://github.com/marcos-bah/language-c/blob/master/06exer/006exer.zip)
+
 ## License
 
 MIT
