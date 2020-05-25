@@ -27,6 +27,11 @@ Baixar arquivos compactados em zip: [05exer](https://github.com/marcos-bah/langu
 
 Baixar arquivos compactados em zip: [06exer](https://github.com/marcos-bah/language-c/blob/master/06exer/006exer.zip)
 
+### Extras  
+Aqui você vai encontrar programas extras criados durante as semanas de aprendizado, sejam por desafios ou atividades complementares.
+
+1. [[E01](https://github.com/marcos-bah/language-c/blob/master/05exer/tecP-lab/01-ascii-art-r2d2.c)] Desenho em ASCII do R2D2.
+
 ## License
 
 MIT
