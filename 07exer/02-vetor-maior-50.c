@@ -21,7 +21,7 @@ int main()
     }
     if (v)
     {
-        printf("Não há valor supeior a 50.");
+        printf("Não há valor superior a 50.");
     }
     printf("\n");
     return 0;

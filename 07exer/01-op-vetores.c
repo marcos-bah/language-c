@@ -47,7 +47,7 @@ int main()
     printf("\n");
 
     /* Exibe Vetor de Produto */
-    printf("Soma de dois vetores: ");
+    printf("Produto de dois vetores: ");
     for (i = 0; i < tam / 2; i++)
         printf("%d ", vetor1[i] * vetor2[i]);
     printf("\n");
