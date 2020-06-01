@@ -5,67 +5,38 @@
 
 int main()
 {
-    int i, j, maior[2] = {0, 0}, menor[2] = {0, 0};
+    int i, j, k, maior, menor, sela;
     /*Criacao da matriz mxn*/
 
     int matriz[LIN][COL] = {-1, 1, 3, 4, 5, 2, 2, -2, 4, 5, 2, 2, 3, 4, -2, -2, 2, 3, 4, 5, -2, -2, 3, 4, 5, -2, 2, 3, -4, 5, -2, 2, 3, 4, 5};
 
-    for (i = 0; i < LIN; i++)
+    for (i = 0; i < 5; i++)
     {
-        for (j = 0; j < COL; j++)
+        menor = matriz[i][0];
+
+        for (j = 0; j < 7; j++)
         {
-            printf("%d ", matriz[i][j]);
-        }
-        printf("\n");
-    }
+            maior = matriz[0][j];
 
-    for (int k = 0; k < COL; k++)
-    {
-        j = k;
+            for (k = 1; k < 5; k++)
+                if (maior < matriz[k][j])
+                    maior = matriz[k][j];
 
-        //achando ponto de sela
-        for (i = 0; i < LIN; i++)
-        {
-            if (matriz[maior[0]][maior[1]] < matriz[i][j])
+            for (k = 1; k < 7; k++)
+                if (menor > matriz[i][k])
+                    menor = matriz[i][k];
+
+            if (menor == maior)
             {
-                maior[0] = i;
-                maior[1] = j;
-            }
-        }
 
-        for (int l = 0; l < LIN; l++)
-        {
-            i = l;
-            printf("\n==================================\n");
-            printf("\nLinha %d", i + 1);
-            printf("\nColuna %d\n\n", k + 1);
-            for (j = 0; j < COL; j++)
-            {
-                if (matriz[menor[0]][menor[1]] > matriz[i][j])
-                {
-                    menor[0] = i;
-                    menor[1] = j;
-                }
+                printf("\n");
+                printf("Ponto de sela: %d ,na posição [%d][%d]", matriz[i][j], i, j);
+                sela++;
             }
-
-            printf("Maior: %d\n", matriz[maior[0]][maior[1]]);
-            printf("Posicao: %d, %d", maior[0], maior[1]);
-            printf("\n");
-
-            printf("Menor: %d\n", matriz[menor[0]][menor[1]]);
-            printf("Posicao: %d, %d", menor[0], menor[1]);
-            printf("\n");
-            if (maior[0] == menor[0] & maior[1] == menor[1])
-            {
-                printf("\nPonto de Sela\n");
-            }
-            printf("\n==================================\n");
-            maior[0] = i;
-            menor[0] = i;
-            maior[1] = j;
-            menor[1] = j;
         }
     }
 
+    if (sela == 0)
+        printf("Não existe ponto de sela\n");
     return 0;
 }
