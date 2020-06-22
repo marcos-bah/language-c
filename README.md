@@ -53,7 +53,7 @@ Aqui você vai encontrar programas extras criados durante as semanas de aprendiz
 1. [[E01](https://github.com/marcos-bah/language-c/blob/master/extra/01-ascii-art-r2d2.c)] Desenho em ASCII do R2D2.
 2. [[E02](https://github.com/marcos-bah/language-c/blob/master/extra/pedra_papel_tesoura.c)] Jogo Joken Poo.
 3. [[E03](https://github.com/marcos-bah/language-c/blob/master/extra/tres_valores_c)] Trabalhando com ponteiros.
-
+4. [[E03](https://github.com/marcos-bah/language-c/blob/master/extra/senet_game.c)] Jogo Senet
 ## License
 
 MIT
